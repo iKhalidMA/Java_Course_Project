@@ -52,7 +52,7 @@ public class Main {
         double monthTargrt = salariesDetails.nextDouble();
         double targetPercent = .05;
         for (int i = 1; i < 13; i++) {
-            System.out.println("month  " + i + "  :" + (int) monthTargrt);
+            System.out.println("month  " + i + " :" + (int) monthTargrt);
             monthTargrt += (monthTargrt * targetPercent);
         }
     }
